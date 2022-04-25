@@ -17,6 +17,11 @@ h3{
     margin: 5px auto;
 }
 
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
 hr{
     border-color: hsl(215, 32%, 27%);
     border-top-width: 1px;
@@ -58,6 +63,12 @@ hr{
     width: 100%;
     border-radius: 18px;
     margin: 2px auto;
+    
+}
+
+.card-img:hover{
+    cursor: pointer;
+    background-color: hsl(178, 100%, 50%);
 }
 
 .avatar-img{
@@ -71,6 +82,11 @@ hr{
 
 .jules{
     color: hsl(0, 0%, 100%);;
+}
+
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 /* Footer */
